@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "73b8b1d7f4e3dcd628870a63af1716d5e9ebf4ad4c673747c6223c952e6f9d31",
+  "schema_version": 1,
+  "created_at": "2026-06-12T01:18:07.000Z",
+  "venue": "polymarket",
+  "table": "candles_1d",
+  "period": "2023-10",
+  "files": [
+    {
+      "path": "part-0000.parquet",
+      "sha256": "3f344fe1b08d1795041df6df7a16b386f8e2130569cf1766e7a51b2fd8a1a3b7",
+      "row_count": 444,
+      "size_bytes": 14127
+    }
+  ],
+  "total_row_count": 444,
+  "license": {
+    "usage_rights": "attribution_required",
+    "redistribution_allowed": "attribution_only",
+    "attribution_required": true,
+    "attribution_text": "Data sourced from Polymarket via Pancake (usepancake.com)",
+    "commercial_use_allowed": false
+  }
+}

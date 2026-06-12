@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "8df7050d8e00fa9b189c048e8088bb65779373aba80284e5507f7ae59da5e383",
+  "schema_version": 1,
+  "created_at": "2026-06-12T01:18:07.000Z",
+  "venue": "polymarket",
+  "table": "markets",
+  "period": "2026-06",
+  "files": [
+    {
+      "path": "part-0000.parquet",
+      "sha256": "ce6c7f63ffac072755ddc620232195257ced08824b57a67884eaba274ac22e55",
+      "row_count": 9759,
+      "size_bytes": 616104
+    }
+  ],
+  "total_row_count": 9759,
+  "license": {
+    "usage_rights": "attribution_required",
+    "redistribution_allowed": "attribution_only",
+    "attribution_required": true,
+    "attribution_text": "Data sourced from Polymarket via Pancake (usepancake.com)",
+    "commercial_use_allowed": false
+  }
+}

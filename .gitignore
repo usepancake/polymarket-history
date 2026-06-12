@@ -1,0 +1,23 @@
+# Raw JSONL intermediates (too large for git, reproduced by export.mjs)
+data/raw/
+
+# Venv
+pipeline/.venv/
+pipeline/__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Executed notebook outputs (keep source clean)
+notebooks/*_executed.ipynb
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# NOTE: datasets/ IS included in git intentionally.
+# Hosting split (GitHub LFS / HuggingFace / Kaggle) is founder-gated.

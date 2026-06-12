@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "9570cfe445a4ff64b30c09b51da56e0adf03f9d1376d871e28b416bd361bff98",
+  "schema_version": 1,
+  "created_at": "2026-06-12T01:18:08.000Z",
+  "venue": "polymarket",
+  "table": "resolutions",
+  "period": "2025-05",
+  "files": [
+    {
+      "path": "part-0000.parquet",
+      "sha256": "aed7167e4d7b7e05a1da7847ff3c650465e50ac3ff1117d2631efeb0c89cb2ed",
+      "row_count": 286,
+      "size_bytes": 72110
+    }
+  ],
+  "total_row_count": 286,
+  "license": {
+    "usage_rights": "attribution_required",
+    "redistribution_allowed": "attribution_only",
+    "attribution_required": true,
+    "attribution_text": "Data sourced from Polymarket via Pancake (usepancake.com)",
+    "commercial_use_allowed": false
+  }
+}
