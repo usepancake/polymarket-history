@@ -300,9 +300,10 @@ jupyter nbconvert --to notebook --execute 02-pandas-backtest-naive.ipynb
 
 ### What's excluded from git
 
-The `data/raw/` directory (JSONL intermediates) is excluded via `.gitignore`.
-The `datasets/` directory is **included** in git for now; hosting split is
-founder-gated and will be decided separately (GitHub LFS / HuggingFace / Kaggle).
+The `data/raw/` directory (JSONL intermediates) is excluded via `.gitignore` —
+it is fully reproducible by re-running `pipeline/export.mjs`. The `datasets/`
+directory (32 MB of Parquet) ships in the repository itself; mirrors on
+HuggingFace and Kaggle follow.
 
 ---
 
